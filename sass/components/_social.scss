@@ -16,12 +16,14 @@
 }
 
 }
+     &__link-wrap {
+    margin-right: 10px;
+}
 
     &__link {
     display: flex;
     width: 44px;
     height: 44px;
-    margin-right: 10px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -36,11 +38,11 @@
     background-color: var(--accent-color);
     outline: none;
 }
-    &__site {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    // &__site {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
 
     &__icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
